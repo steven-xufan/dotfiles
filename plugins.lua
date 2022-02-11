@@ -8,7 +8,10 @@ return require('packer').startup(function(use)
   -- My plugins here
   use 'wbthomason/packer.nvim'
 
-  -- Automatically set up your configuration after cloning packer.nvim
+  use 'junegunn/fzf'
+  use 'junegunn/fzf.vim'
+
+
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()

@@ -48,6 +48,11 @@ set noerrorbells visualbell t_vb=
 " sometimes be convenient.
 set mouse+=a
 
+" Use space for tabs
+set expandtab
+
+" Sync clipboard
+set clipboard=unnamed
 
 " Load (packer) plugins
 lua require('plugins')
