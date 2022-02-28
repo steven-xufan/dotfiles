@@ -6,10 +6,12 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.config/nvim/init.vim:
-    ~/.config/nvim/lua/plugins.lua:
+    # ~/.config/nvim/init.vim:
+    # ~/.config/nvim/lua/plugins.lua:
     ~/.alias.sh:
     ~/.env_var.sh:
+    ~/.brew_install.sh:
+    ~/.config/nvim/lua/user/settings.lua:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
