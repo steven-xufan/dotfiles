@@ -9,6 +9,7 @@
     # ~/.config/nvim/init.vim:
     # ~/.config/nvim/lua/plugins.lua:
     ~/.alias.sh:
+    ~/.alacritty.yml:
     ~/.env_var.sh:
     ~/.brew_install.sh:
     ~/.config/nvim/lua/user/settings.lua:
