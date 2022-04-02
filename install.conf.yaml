@@ -7,6 +7,7 @@
 
 - link:
     ~/.config/nvim/init.lua: nvim/init.lua
+    ~/.config/nvim/lua/user/keymaps.lua: nvim/keymaps.lua
     ~/.config/nvim/lua/user/options.lua: nvim/options.lua
     ~/.config/nvim/lua/plugins.lua: nvim/plugins.lua
     ~/.alias.sh:
