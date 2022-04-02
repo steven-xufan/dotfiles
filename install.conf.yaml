@@ -3,11 +3,12 @@
       relink: true
       create: true
 
-- clean: ['~', '~/.config']
+- clean: ['~', '~/.config/nvim']
 
 - link:
-    ~/.config/nvim/init.vim:
-    ~/.config/nvim/lua/plugins.lua:
+    ~/.config/nvim/init.lua: nvim/init.lua
+    ~/.config/nvim/lua/user/options.lua: nvim/options.lua
+    ~/.config/nvim/lua/plugins.lua: nvim/plugins.lua
     ~/.alias.sh:
     ~/.alacritty.yml:
     ~/.env_var.sh:
