@@ -5,5 +5,6 @@ alias astrovim="XDG_CONFIG_HOME=~/.config/astro_nvim XDG_DATA_HOME=~/.config/ast
 
 alias lscd="ls | fzf | cd"
 
+alias k9sr="k9s --readonly"
 
 function clone_dh () gh repo clone deliveryhero/$1 $2

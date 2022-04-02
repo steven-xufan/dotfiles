@@ -12,6 +12,8 @@ brew install --cask homebrew/cask-fonts/font-meslo-lg-nerd-font
 brew install kubectx
 brew install kube-ps1
 
+brew install helm
+
 brew install direnv
 
 
@@ -38,3 +40,15 @@ brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-geto
 brew install tldr
 
 brew install graphviz
+
+brew install exa
+
+brew install tree
+
+# Database
+brew install mysql-client
+brew install libpq
+
+brew install watch
+
+brew install k9s
