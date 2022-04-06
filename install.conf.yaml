@@ -10,6 +10,8 @@
     ~/.alacritty.yml:
     ~/.env_var.sh:
     ~/.brew_install.sh:
+    ~/.ideavimrc:
+    ~/.tmux.conf:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

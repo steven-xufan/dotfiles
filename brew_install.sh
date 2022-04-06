@@ -52,3 +52,5 @@ brew install libpq
 brew install watch
 
 brew install k9s
+
+brew install jq
