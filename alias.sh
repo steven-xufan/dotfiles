@@ -6,4 +6,20 @@ alias lscd="ls | fzf | cd"
 
 alias k9sr="k9s --readonly"
 
+alias lg=lazygit
+
+alias g=git
+
+# Overwrite mac tools with Linux ones
+alias readlink="greadlink"
+alias find="gfind"
+alias sed="gsed"
+alias tar="gtar"
+alias awk="gawk"
+alias xargs="gxargs"
+alias time="gtime"
+alias ll='/opt/homebrew/bin/gls --color=always -lh -F --time-style="long-iso"'
+
+export PATH="/opt/homebrew/opt/gnu-getopt/bin:$PATH"
+
 function clone_dh () gh repo clone deliveryhero/$1 $2
