@@ -1,0 +1,13 @@
+[include]
+	path = ~/.gitconfig_local
+[core]
+	excludesfile = ~/.gitignore_global
+[commit]
+	gpgsign = true
+[fetch]
+	prune = true
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[alias]
+	root = rev-parse --show-toplevel
+	delete-merged-branches = !git branch -vv | grep ': gone]' | grep -v '\\*' | awk \"{print \\$1}\" | gxargs -r --verbose git branch -D

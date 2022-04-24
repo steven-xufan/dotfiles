@@ -12,6 +12,8 @@
     ~/.brew_install.sh:
     ~/.ideavimrc:
     ~/.tmux.conf:
+    ~/.gitconfig:
+    ~/.gitignore_global:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

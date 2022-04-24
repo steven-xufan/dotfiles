@@ -1,0 +1,26 @@
+.DS_Store
+
+.idea/
+.vscode/
+
+.dockerignore
+
+venv/
+**/__pycache__
+**/*.egg-info
+
+.pytest_cache
+
+.mypy_cache
+
+# direnv files
+.envrc
+.direnv
+
+# asdf
+.tool-versions
+
+# JSHint (used in PyCharm)
+.jshintrc
+
+.terraform/
