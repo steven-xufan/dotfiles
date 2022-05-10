@@ -14,6 +14,7 @@
     ~/.tmux.conf:
     ~/.gitconfig:
     ~/.gitignore_global:
+    ~/.config/bat/config: bat_config
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
