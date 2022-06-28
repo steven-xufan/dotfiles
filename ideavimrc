@@ -21,6 +21,8 @@ set showmode
 set so=5
 set incsearch
 set nu
+" Syncs clipboard
+set clipboard+=unnamed
 
 """ Idea specific settings ------------------
 set ideajoin
@@ -29,6 +31,14 @@ set idearefactormode=keep
 
 """ Mappings --------------------------------
 map <leader>e <Action>(NERDTreeToggle)
+
+" Shift l/h to navigate tabs
+nmap <S-h> gT
+nmap <S-l> gt
+
+" Ctrl l/h to navigate window
+nmap <C-H> <C-W>h
+nmap <C-L> <C-W>l
 
 """ map <leader>d <Action>(Debug)
 """ map <leader>r <Action>(RenameElement)

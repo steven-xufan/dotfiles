@@ -20,6 +20,8 @@ alias xargs="gxargs"
 alias time="gtime"
 alias ll='/opt/homebrew/bin/gls --color=always -lh -F --time-style="long-iso"'
 
+alias helm3=helm
+
 export PATH="/opt/homebrew/opt/gnu-getopt/bin:$PATH"
 
 function clone_dh () gh repo clone deliveryhero/$1 $2
