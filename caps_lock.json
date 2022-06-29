@@ -96,7 +96,8 @@
                             "optional": [
                                 "command",
                                 "control",
-                                "option"
+                                "option",
+                                "shift"
                             ]
                         }
                     },
